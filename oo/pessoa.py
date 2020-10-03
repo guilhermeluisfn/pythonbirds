@@ -11,7 +11,7 @@ class Pessoa:
 
 
     def cumprimentar(self):
-        return f'Olá {self.nome}'
+        return f'Olá {self.nome}. Seu ID {id(self)}'
 
 if __name__ == '__main__':
     guilherme = Pessoa(nome='Guilherme', idade=43, sexo='Masculino', cor='Pardo', cor_olhos='Castanho')
